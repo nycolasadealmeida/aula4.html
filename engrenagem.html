@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>engrenagem</title>
+    <style>
+        body
+        {
+            width: 100%;
+            height: 100vh;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            align-content: center;
+            margin: 0px;
+        }
+        .e1
+        {
+            position: absolute;
+            top: 0%;
+            left: 0%;
+            animation: gira1 1s infinite linear;
+        }
+        @keyframes gira1{
+        0%  { rotate: 0deg;}
+        100% { rotate: 360deg;}
+    }
+            .e2
+    {
+        position: absolute;
+        top: 120px;
+        left: 450px;
+        animation: gira2 1s infinite linear;
+    }
+    @keyframes gira2{
+        0%  { rotate: 0deg;}
+        100% { rotate: -360deg;}
+    }
+    </style>
+</body>
+</html>
+    <div class="conteudo">
+    <img src="personagem.png" class="e1">
+    <img src="personagem.png" class="e2">
+     </div>
+     <style>
+       
+    .conteudo
+     {
+        width:950px;
+        height: 630px;
+        background-color: rebeccapurple;
+        position: relative;
+     }
+         
+     
+
