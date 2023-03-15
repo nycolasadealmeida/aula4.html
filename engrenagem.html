@@ -18,37 +18,27 @@
             align-content: center;
             margin: 0px;
         }
-        .e1
-        {
-            position: absolute;
-            top: 0%;
-            left: 0%;
-            animation: gira1 1s infinite linear;
-        }
-        @keyframes gira1{
-        0%  { rotate: 0deg;}
-        100% { rotate: 360deg;}
-    }
+       
             .e2
     {
         position: absolute;
-        top: 120px;
-        left: 450px;
-        animation: gira2 1s infinite linear;
+        top: 155px;
+        left: 294px;
+        animation: pinga2 2s infinite;
+        z-index: 0;
     }
-    @keyframes gira2{
-        0%  { rotate: 0deg;}
-        100% { rotate: -360deg;}
+    @keyframes pinga2 {
+        0% {top: 155px;}
+        100% {top: 294px; opacity: 0;}
+
     }
-    </style>
-</body>
-</html>
-    <div class="conteudo">
-    <img src="personagem.png" class="e1">
-    <img src="personagem.png" class="e2">
-     </div>
-     <style>
-       
+    .e1
+    {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+    }
     .conteudo
      {
         width:950px;
@@ -56,6 +46,17 @@
         background-color: rebeccapurple;
         position: relative;
      }
-         
-     
+    
+    </style>
+     <div class="conteudo">
+        <img src="torneira.png" class="e1">
+        <img src="gota.png" class="e2">
+         </div>
+</body>
+</html>
+  
+    
+       
+  
+    
 
